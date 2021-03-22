@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
-from app.app.config import THE_SECRET_KEY
+from config import THE_SECRET_KEY
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
